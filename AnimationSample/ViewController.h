@@ -11,7 +11,7 @@
 #import "MyImageView.h"
 //#import "TickleGestureRecognizer.h"
 
-@interface ViewController : UIViewController <TouchSenseWiz>
+@interface ViewController : UIViewController <TouchSenseWiz, UIGestureRecognizerDelegate>
 @property(nonatomic,retain) IBOutlet MyImageView *imgView;
 @property(nonatomic)BOOL animationViewTouched;
 @end
