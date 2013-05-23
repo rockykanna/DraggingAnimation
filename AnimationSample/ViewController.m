@@ -26,7 +26,7 @@
     [panGesture setDelegate:self];
     [imgView addGestureRecognizer:panGesture];
     
-    
+    NSLog(@"Updates");
     
 //    TickleGestureRecognizer *trickle = [[TickleGestureRecognizer alloc] initWithTarget:self action:@selector(panGestureMoveAround:)];
 //    trickle.delegate = self;
